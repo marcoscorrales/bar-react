@@ -1,4 +1,4 @@
-export default function Header () {
+export const Header = () => {
     return(
     <header className="bg-yellow-700 text-white shadow-md">
         <div className="max-w-6xl mx-auto flex items-center justify-between py-4 px-6">
