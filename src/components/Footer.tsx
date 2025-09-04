@@ -1,13 +1,13 @@
 export const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-gray-300 py-10">
-      <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+  <footer className="bg-gray-900 text-gray-300 py-12">
+      <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
         
         {/* Logo y descripción */}
         <div>
-          <h2 className="text-2xl font-bold text-yellow-400">La Esquina Bar</h2>
-          <p className="mt-4 text-sm">
-            Tu lugar favorito para buena música, tragos únicos y noches inolvidables.
+          <h2 className="text-2xl font-bold text-red-500">La Esquina Bar</h2>
+          <p className="mt-4 text-sm leading-relaxed text-gray-400">
+            Tu lugar favorito para buena música, tragos únicos y noches inolvidables
           </p>
         </div>
 
@@ -15,24 +15,24 @@ export const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold text-white">Enlaces</h3>
           <ul className="mt-4 space-y-2 text-sm">
-            <li><a href="#menu" className="hover:text-yellow-400">Menú</a></li>
-            <li><a href="#eventos" className="hover:text-yellow-400">Eventos</a></li>
-            <li><a href="#reservas" className="hover:text-yellow-400">Reservas</a></li>
-            <li><a href="#contacto" className="hover:text-yellow-400">Contacto</a></li>
+            <li><a href="#menu" className="hover:text-red-400 transition">Menú</a></li>
+            <li><a href="#eventos" className="hover:text-red-400 transition">Eventos</a></li>
+            <li><a href="#reservas" className="hover:text-red-400 transition">Reservas</a></li>
+            <li><a href="#contacto" className="hover:text-red-400 transition">Contacto</a></li>
           </ul>
         </div>
 
-        {/* Horarios y redes */}
+        {/* Horarios */}
         <div>
           <h3 className="text-lg font-semibold text-white">Horario</h3>
-          <p className="mt-4 text-sm">
-            8:00 - 00:00 (Lun-Dom)
+          <p className="mt-4 text-sm text-gray-400">
+            Lunes - Domingo <br /> 6:00 PM - 2:00 AM
           </p>
         </div>
       </div>
 
       {/* Línea inferior */}
-      <div className="mt-10 border-t border-gray-700 pt-4 text-center text-sm text-gray-500">
+      <div className="mt-12 border-t border-gray-700 pt-4 text-center text-sm text-gray-500">
         © {new Date().getFullYear()} La Esquina Bar. Todos los derechos reservados.
       </div>
     </footer>
